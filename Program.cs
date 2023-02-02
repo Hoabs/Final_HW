@@ -25,3 +25,7 @@
 
 }
 
+string[] check = {"2222", "333", "8888", "344"};
+check = ModifyStringArray(check);
+
+Console.WriteLine(string.Join(", ", check));
